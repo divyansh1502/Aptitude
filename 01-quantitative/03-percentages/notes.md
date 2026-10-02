@@ -1,684 +1,847 @@
-﻿# Percentages
+﻿# Percentages — Notes
 
-> **Goal:** Learn percentages from zero and build enough speed to solve common placement-test questions involving increase/decrease, successive changes, comparisons, marks, population, salary, expenditure, and reverse percentages.
-
----
-
-## 1. What Is a Percentage?
+## 1. What is a Percentage?
 
 **Percentage** means "per hundred".
 
-\[
-x\% = \frac{x}{100}
-\]
+```text
+x% = x/100
+```
 
 Examples:
 
-- `25% = 25/100 = 1/4`
-- `50% = 1/2`
-- `75% = 3/4`
-- `20% = 1/5`
-- `10% = 1/10`
+```text
+25% = 25/100 = 1/4
 
-### Basic Formula
+50% = 50/100 = 1/2
 
-\[
-\text{Percentage} = \frac{\text{Part}}{\text{Whole}}\times100
-\]
-
-### Finding a Percentage of a Number
-
-\[
-x\% \text{ of } N = \frac{x}{100}\times N
-\]
-
-Example:
-
-\[
-20\% \text{ of } 250 = \frac{20}{100}\times250=50
-\]
+75% = 75/100 = 3/4
+```
 
 ---
 
-# 2. Fraction ↔ Percentage Conversion
+# 2. Finding a Percentage of a Number
 
-These conversions are extremely useful for mental calculations.
+To find `x%` of `y`:
 
-| Fraction | Percentage |
-|---:|---:|
-| `1/2` | 50% |
-| `1/3` | 33.33% |
-| `1/4` | 25% |
-| `1/5` | 20% |
-| `1/6` | 16.67% |
-| `1/8` | 12.5% |
-| `1/10` | 10% |
-| `1/20` | 5% |
-| `1/25` | 4% |
-| `1/40` | 2.5% |
-| `1/50` | 2% |
-| `1/100` | 1% |
+```text
+x% of y = (x/100) × y
+```
 
-Memorizing these saves a lot of time in aptitude tests.
+### Example
+
+Find `25%` of `240`.
+
+```text
+25% of 240
+= 25/100 × 240
+= 60
+```
+
+**Answer: `60`**
 
 ---
 
-# 3. Finding the Percentage of a Quantity
+# 3. Percentage as a Fraction
 
-### Example 1 — Easy
+Convert the percentage into a fraction by dividing by `100`.
 
-Find 15% of 400.
+Examples:
 
-\[
-15\% \times 400
-=\frac{15}{100}\times400
-=60
-\]
+```text
+20% = 20/100 = 1/5
 
-**Answer: 60**
+40% = 40/100 = 2/5
 
-### Mental method
+12.5% = 12.5/100 = 1/8
+```
 
-10% of 400 = 40  
-5% of 400 = 20
+### Important Conversions
 
-Therefore:
-
-\[
-15\%=40+20=60
-\]
+| Percentage | Fraction |
+| ---------: | -------: |
+|        10% |   `1/10` |
+|      12.5% |    `1/8` |
+|       16⅔% |    `1/6` |
+|        20% |    `1/5` |
+|        25% |    `1/4` |
+|       33⅓% |    `1/3` |
+|        50% |    `1/2` |
+|       66⅔% |    `2/3` |
+|        75% |    `3/4` |
+|        80% |    `4/5` |
 
 ---
 
 # 4. Finding What Percentage One Number Is of Another
 
-### Example 2
+Formula:
 
-A student scores 72 marks out of 90. Find the percentage.
-
-\[
-\frac{72}{90}\times100
-\]
-
-\[
-=\frac45\times100=80\%
-\]
-
-**Answer: 80%**
-
-### Common pattern
-
-> "A is what percentage of B?"
-
-Always use:
-
-\[
-\boxed{\frac{A}{B}\times100}
-\]
-
-The denominator is the **reference/whole quantity**.
-
----
-
-# 5. Percentage Increase
-
-If an original value is `P` and it increases by `r%`:
-
-\[
-\text{New Value}=P\left(1+\frac r{100}\right)
-\]
-
-### Example 3
-
-A salary is ₹20,000. It increases by 15%. Find the new salary.
-
-Increase:
-
-\[
-15\%\text{ of }20000=3000
-\]
-
-New salary:
-
-\[
-20000+3000=23000
-\]
-
-**Answer: ₹23,000**
-
-### Multiplier method
-
-\[
-20000\times1.15=23000
-\]
-
-This is usually faster.
-
----
-
-# 6. Percentage Decrease
-
-If a value decreases by `r%`:
-
-\[
-\text{New Value}=P\left(1-\frac r{100}\right)
-\]
-
-### Example 4
-
-A product costs ₹800 and its price decreases by 20%.
-
-\[
-800\times0.8=640
-\]
-
-**Answer: ₹640**
-
----
-
-# 7. Successive Percentage Changes
-
-This is one of the most important placement patterns.
-
-Suppose a quantity changes by `a%` and then by `b%`.
-
-The net percentage change is:
-
-\[
-\boxed{a+b+\frac{ab}{100}}
-\]
-
-when both are increases.
-
-If one is an increase and one is a decrease, use the signs:
-
-\[
-\boxed{a+b+\frac{ab}{100}}
-\]
-
-where increase = positive and decrease = negative.
-
-### Example 5 — Exam Level
-
-A price increases by 20% and then decreases by 10%. Find the net percentage change.
-
-Take:
-
-\[
-a=20,\quad b=-10
-\]
-
-\[
-20-10+\frac{20(-10)}{100}
-\]
-
-\[
-=10-2=8\%
-\]
-
-**Answer: 8% increase**
-
-### Important trap
-
-A 20% increase followed by a 20% decrease is **not 0%**.
-
-\[
-20-20+\frac{20(-20)}{100}=-4\%
-\]
-
-So the final value is **4% less** than the original.
-
----
-
-# 8. Percentage Change from Original and Final Values
-
-If the original value is `O` and final value is `F`:
-
-\[
-\boxed{\%\text{ change}=\frac{F-O}{O}\times100}
-\]
+```text
+Percentage = (Part / Whole) × 100
+```
 
 ### Example
 
-A company's employees increase from 500 to 575.
+30 is what percentage of 120?
 
-\[
-\frac{575-500}{500}\times100
-\]
+```text
+(30/120) × 100
+= 25%
+```
 
-\[
-=\frac{75}{500}\times100=15\%
-\]
-
-**Answer: 15% increase**
-
----
-
-# 9. Reverse Percentage
-
-This is a common trap.
-
-Suppose a number becomes 120 after a 20% increase.
-
-Do **not** calculate 20% of 120 and subtract it.
-
-The final value is:
-
-\[
-120\% \text{ of original}=120
-\]
-
-Therefore:
-
-\[
-\text{Original}=\frac{120}{1.2}=100
-\]
-
-### Example
-
-After a 25% increase, a number becomes 500. Find the original number.
-
-\[
-\text{Original}=\frac{500}{1.25}=400
-\]
-
-**Answer: 400**
-
----
-
-# 10. Finding Original Value After a Decrease
-
-If the final value after a decrease of `r%` is known:
-
-\[
-\text{Original}=\frac{\text{Final}}{1-r/100}
-\]
-
-### Example
-
-After a 20% discount, a shirt costs ₹640.
-
-\[
-\text{Original}=\frac{640}{0.8}=800
-\]
-
-**Answer: ₹800**
-
----
-
-# 11. Percentage Comparison
-
-Suppose A = 120 and B = 100.
-
-A is what percent more than B?
-
-\[
-\frac{120-100}{100}\times100=20\%
-\]
-
-So A is **20% more than B**.
-
-But B is what percent less than A?
-
-\[
-\frac{120-100}{120}\times100
-=16.67\%
-\]
-
-So B is **16.67% less than A**.
-
-### Critical Trap
-
-"20% more" and "20% less" are not reversible statements.
-
-If A is 20% more than B:
-
-\[
-A=1.2B
-\]
-
-Therefore:
-
-\[
-B=\frac{A}{1.2}=0.8333A
-\]
-
-So B is **16.67% less than A**.
-
----
-
-# 12. Percentage and Ratio
-
-Percentages can often be converted into ratios.
-
-If A is 25% more than B:
-
-\[
-A=125\%B
-\]
-
-\[
-A:B=125:100=5:4
-\]
-
-If A is 20% less than B:
-
-\[
-A=80\%B
-\]
-
-\[
-A:B=80:100=4:5
-\]
-
-This is useful when a question combines percentage and ratio.
-
----
-
-# 13. Marks and Percentage
-
-### Example
-
-A student gets 360 marks and scores 72%.
-
-Find the maximum marks.
-
-\[
-72\%\text{ of Maximum}=360
-\]
-
-\[
-\frac{72}{100}M=360
-\]
-
-\[
-M=\frac{360\times100}{72}=500
-\]
-
-**Answer: 500**
-
-### Common pattern
-
-> "A student scores x marks and gets y%. Find total marks."
-
-Use:
-
-\[
-\boxed{\text{Total marks}=\frac{\text{obtained marks}\times100}{\text{percentage}}}
-\]
-
----
-
-# 14. Population Problems
-
-Percentage increase/decrease is frequently applied to population.
-
-### Example
-
-A city's population is 80,000. It increases by 10% in one year and by 20% in the next year.
-
-\[
-80000\times1.10\times1.20
-\]
-
-\[
-=105600
-\]
-
-**Answer: 105,600**
-
-Net increase:
-
-\[
-\frac{105600-80000}{80000}\times100=32\%
-\]
-
-So the population increased by **32%**, not 30%.
-
----
-
-# 15. Income, Expenditure and Savings
-
-These questions combine percentages.
-
-Suppose:
-
-\[
-\text{Savings}=\text{Income}-\text{Expenditure}
-\]
-
-### Example
-
-A person's income is ₹40,000 and expenditure is ₹32,000.
-
-Savings:
-
-\[
-40000-32000=8000
-\]
-
-Savings percentage of income:
-
-\[
-\frac{8000}{40000}\times100=20\%
-\]
-
-**Answer: 20%**
+**Answer: `25%`**
 
 ### Important
 
-Always identify the denominator.
-
-"Saving is what percentage of income?" means:
-
-\[
-\frac{\text{Savings}}{\text{Income}}\times100
-\]
+The denominator is the **reference/whole value**.
 
 ---
 
-# 16. Expenditure Constant — Price and Consumption
+# 5. Finding the Original Number
 
-If price increases but total expenditure must remain constant, consumption must decrease.
+Suppose `20%` of a number is `50`.
 
-If price increases by `r%`, required percentage decrease in consumption is:
+Let the number be `x`.
 
-\[
-\boxed{\frac{r}{100+r}\times100}
-\]
+```text
+20% of x = 50
+
+20/100 × x = 50
+
+x = 50 × 100/20
+x = 250
+```
+
+**Answer: `250`**
+
+### Shortcut
+
+If `p%` of a number is `x`:
+
+```text
+Original = x × 100/p
+```
+
+---
+
+# 6. Percentage Increase
+
+If a value increases from `A` to `B`:
+
+```text
+Percentage Increase
+= [(B - A)/A] × 100
+```
+
+The denominator is always the **original value**.
 
 ### Example
 
-Price of rice increases by 25%. By what percentage should consumption decrease to keep expenditure unchanged?
+Price increases from `₹500` to `₹600`.
 
-\[
-\frac{25}{125}\times100=20\%
-\]
+Increase:
 
-**Answer: 20% decrease**
+```text
+600 - 500 = ₹100
+```
 
----
+Percentage increase:
 
-# 17. Population/Value Must Be Kept Constant
+```text
+100/500 × 100
+= 20%
+```
 
-The same inverse relationship appears in many questions:
-
-\[
-\text{Quantity}\times\text{Rate}=\text{Constant}
-\]
-
-Examples:
-
-- Price × Quantity = Expenditure
-- Speed × Time = Distance
-- Workers × Days = Work, under suitable assumptions
-
-If one factor increases, the other must decrease proportionally to maintain the product.
+**Answer: `20%`**
 
 ---
 
-# 18. Common Placement Question Patterns
+# 7. Percentage Decrease
 
-### Pattern 1 — Direct percentage
+If a value decreases from `A` to `B`:
 
-Find x% of a number.
+```text
+Percentage Decrease
+= [(A - B)/A] × 100
+```
 
-### Pattern 2 — Percentage comparison
+### Example
 
-A is what percentage of B?
+Price decreases from `₹800` to `₹680`.
 
-### Pattern 3 — Increase/decrease
+Decrease:
 
-A quantity changes by x%.
+```text
+800 - 680 = ₹120
+```
 
-### Pattern 4 — Successive changes
+Percentage decrease:
 
-Increase/decrease happens multiple times.
+```text
+120/800 × 100
+= 15%
+```
 
-### Pattern 5 — Reverse percentage
-
-Final value is given; find original.
-
-### Pattern 6 — Marks
-
-Marks ↔ percentage ↔ total marks.
-
-### Pattern 7 — Population
-
-Population changes over multiple years.
-
-### Pattern 8 — Salary/income
-
-Salary, expenditure, savings, bonus, deductions.
-
-### Pattern 9 — Price and consumption
-
-Price changes while expenditure remains constant.
-
-### Pattern 10 — Percentage + ratio
-
-One quantity is x% more/less than another.
+**Answer: `15%`**
 
 ---
 
-# 19. Examiner Traps
+# 8. New Value After Percentage Increase
 
-## Trap 1: Wrong denominator
+If a value increases by `p%`:
 
-"A is what percentage more than B?"
+```text
+New Value = Original × (1 + p/100)
+```
 
-Denominator = B.
+### Example
 
-\[
-\frac{A-B}{B}\times100
-\]
+Increase `₹800` by `15%`.
 
----
-
-## Trap 2: Treating successive changes as simple addition
-
-20% increase followed by 10% decrease is **8% increase**, not 10%.
-
----
-
-## Trap 3: Using final value as denominator for reverse percentage
-
-If a price becomes ₹600 after a 20% increase:
-
-\[
-\text{Original}=\frac{600}{1.2}
-\]
-
-Do not subtract 20% of 600.
+```text
+New value
+= 800 × 1.15
+= ₹920
+```
 
 ---
 
-## Trap 4: Confusing percentage points with percentage change
+# 9. New Value After Percentage Decrease
 
-A pass percentage rises from 60% to 70%.
+If a value decreases by `p%`:
 
-The increase is:
+```text
+New Value = Original × (1 - p/100)
+```
 
-- **10 percentage points**
-- Relative percentage increase:
+### Example
 
-\[
-\frac{70-60}{60}\times100=16.67\%
-\]
+Decrease `₹800` by `15%`.
 
----
-
-## Trap 5: Assuming increase and decrease cancel
-
-+25% followed by −25% gives:
-
-\[
-25-25-\frac{25^2}{100}=-6.25\%
-\]
+```text
+New value
+= 800 × 0.85
+= ₹680
+```
 
 ---
 
-## Trap 6: Ignoring the reference quantity
+# 10. Successive Percentage Changes
 
-"Salary A is 30% more than B" and "B is 30% less than A" are not equivalent.
+When percentage changes happen one after another, **do not simply add the percentages**.
+
+Use multipliers.
+
+For an increase of `a%` followed by an increase of `b%`:
+
+```text
+Net change
+= a + b + (ab/100)%
+```
+
+### Example
+
+A price increases by `20%` and then by `10%`.
+
+```text
+Net increase
+= 20 + 10 + (20×10)/100
+= 32%
+```
+
+So the total increase is:
+
+```text
+32%
+```
 
 ---
 
-# 20. Exam-Speed Strategy
+# 11. Successive Increase and Decrease
 
-1. Convert common percentages into fractions.
-2. Use multipliers for repeated changes.
-3. Identify the denominator before calculating.
-4. For reverse percentage, divide by the multiplier.
-5. For successive changes, use multiplication or the net-change formula.
-6. Look for ratio conversion when percentages are awkward.
-7. Estimate first when answer options are far apart.
-8. Do not perform unnecessary decimal calculations.
+For an increase of `a%` followed by a decrease of `b%`:
+
+```text
+Net change
+= a - b - ab/100
+```
+
+### Example
+
+A value increases by `20%` and then decreases by `10%`.
+
+```text
+Net change
+= 20 - 10 - 2
+= 8%
+```
+
+Therefore:
+
+```text
+Net increase = 8%
+```
 
 ---
 
-# Quick Memory Rules
+# 12. Two Successive Equal Percentage Changes
 
-### Percentage of a number
+If a value increases by `x%` and then decreases by `x%`:
 
-\[
-x\%\text{ of }N=\frac{xN}{100}
-\]
+```text
+Net decrease = x²/100 %
+```
 
-### Percentage change
+### Example
 
-\[
-\frac{\text{Change}}{\text{Original}}\times100
-\]
+A price increases by `20%` and then decreases by `20%`.
 
-### Increase
+```text
+Net decrease
+= 20²/100
+= 4%
+```
 
-\[
-N\rightarrow N(1+r/100)
-\]
+So the final value is:
 
-### Decrease
+```text
+96% of the original
+```
 
-\[
-N\rightarrow N(1-r/100)
-\]
+---
 
-### Successive changes
+# 13. Reverse Percentage
 
-\[
-a+b+\frac{ab}{100}
-\]
+Sometimes the final value is given and the original value must be found.
 
-Use signs: increase `+`, decrease `−`.
+### Example
 
-### Reverse increase
+A number is increased by `20%` and becomes `360`.
 
-\[
-\text{Original}=\frac{\text{Final}}{1+r/100}
-\]
+Find the original number.
 
-### Reverse decrease
+After a `20%` increase:
 
-\[
-\text{Original}=\frac{\text{Final}}{1-r/100}
-\]
+```text
+Final = 120% of Original
+```
+
+Therefore:
+
+```text
+Original = 360 × 100/120
+         = 300
+```
+
+**Answer: `300`**
+
+---
+
+# 14. Percentage Comparison
+
+If A is `x%` more than B:
+
+```text
+A = B × (1 + x/100)
+```
+
+### Example
+
+A is `25%` more than B.
+
+If:
+
+```text
+B = 100
+```
+
+then:
+
+```text
+A = 125
+```
+
+Therefore A is `25%` more than B.
+
+---
+
+# 15. Reverse Comparison Trap
+
+If A is `25%` more than B, B is **not** `25%` less than A.
+
+Example:
+
+```text
+B = 100
+A = 125
+```
+
+Decrease from A to B:
+
+```text
+25/125 × 100
+= 20%
+```
+
+Therefore:
+
+```text
+If A is 25% more than B,
+B is 20% less than A.
+```
+
+---
+
+# 16. Conversion Between "More" and "Less"
+
+If A is `x%` more than B:
+
+```text
+B is [x/(100+x)] × 100 % less than A
+```
+
+If A is `x%` less than B:
+
+```text
+B is [x/(100-x)] × 100 % more than A
+```
+
+### Example
+
+A is `20%` more than B.
+
+Then B is:
+
+```text
+20/120 × 100
+= 16⅔%
+```
+
+less than A.
+
+---
+
+# 17. Percentage and Ratio
+
+If:
+
+```text
+A : B = a : b
+```
+
+then A as a percentage of B:
+
+```text
+A/B × 100
+= a/b × 100
+```
+
+### Example
+
+Boys : Girls = `3 : 2`.
+
+Boys are what percentage of girls?
+
+```text
+3/2 × 100
+= 150%
+```
+
+So boys are `150%` of girls.
+
+---
+
+# 18. Percentage Difference
+
+Percentage difference between two values is:
+
+```text
+|A-B| / [(A+B)/2] × 100
+```
+
+This is different from percentage increase/decrease because there is no fixed original value.
+
+### Example
+
+Find the percentage difference between `80` and `100`.
+
+```text
+Difference = 20
+
+Average = (80+100)/2 = 90
+
+Percentage difference
+= 20/90 × 100
+≈ 22.22%
+```
+
+---
+
+# 19. Marks and Percentage
+
+Percentage obtained:
+
+```text
+Percentage = (Marks Obtained / Maximum Marks) × 100
+```
+
+### Example
+
+A student scores `420` out of `600`.
+
+```text
+Percentage
+= 420/600 × 100
+= 70%
+```
+
+---
+
+# 20. Marks Required for a Target Percentage
+
+Suppose a student has to score `75%` in a test of `800` marks.
+
+```text
+Required marks
+= 75/100 × 800
+= 600
+```
+
+**Answer: `600 marks`**
+
+---
+
+# 21. Population Problems
+
+Population behaves exactly like any other quantity.
+
+If population is `50,000` and increases by `10%`:
+
+```text
+New population
+= 50,000 × 1.10
+= 55,000
+```
+
+If it then decreases by `20%`:
+
+```text
+55,000 × 0.80
+= 44,000
+```
+
+Notice that the second percentage is applied to the **new population**, not the original population.
+
+---
+
+# 22. Income, Expenditure and Savings
+
+Basic relationship:
+
+```text
+Savings = Income - Expenditure
+```
+
+### Example
+
+Income = `₹40,000`
+
+Expenditure = `₹32,000`
+
+Therefore:
+
+```text
+Savings = ₹8,000
+```
+
+Savings percentage of income:
+
+```text
+8000/40000 × 100
+= 20%
+```
+
+---
+
+# 23. Price and Consumption
+
+If expenditure remains constant:
+
+```text
+Price × Quantity = Constant
+```
+
+Therefore, if price increases, consumption must decrease.
+
+If price increases by `p%`, required decrease in consumption is:
+
+```text
+p/(100+p) × 100%
+```
+
+### Example
+
+Price increases by `25%`.
+
+Required decrease in consumption:
+
+```text
+25/125 × 100
+= 20%
+```
+
+Therefore consumption should decrease by `20%`.
+
+---
+
+# 24. Salary and Savings
+
+These questions usually involve two changes:
+
+* Income changes
+* Expenditure changes
+
+Then calculate the new savings.
+
+### Example
+
+Income = `₹50,000`
+
+Expenditure = `₹40,000`
+
+Income increases by `20%`:
+
+```text
+New income = ₹60,000
+```
+
+Expenditure increases by `10%`:
+
+```text
+New expenditure = ₹44,000
+```
+
+New savings:
+
+```text
+60,000 - 44,000
+= ₹16,000
+```
+
+Original savings:
+
+```text
+50,000 - 40,000
+= ₹10,000
+```
+
+Percentage increase in savings:
+
+```text
+6000/10000 × 100
+= 60%
+```
+
+---
+
+# 25. Population with Successive Changes
+
+If population changes by `a%` and then `b%`:
+
+```text
+Final population
+= P × (1 ± a/100) × (1 ± b/100)
+```
+
+Use:
+
+```text
++ → increase
+- → decrease
+```
+
+This avoids mistakes with successive percentages.
+
+---
+
+# 26. Percentage Points vs Percentage Change
+
+These are different.
+
+If a rate changes from `20%` to `25%`:
+
+Percentage-point increase:
+
+```text
+25 - 20 = 5 percentage points
+```
+
+Percentage increase:
+
+```text
+5/20 × 100
+= 25%
+```
+
+So:
+
+```text
+5 percentage points ≠ 5% increase
+```
+
+---
+
+# 27. Common Placement Patterns
+
+Percentage questions commonly involve:
+
+1. Basic percentage calculation
+2. Percentage of a number
+3. Finding the original number
+4. Percentage increase
+5. Percentage decrease
+6. Successive percentage changes
+7. Reverse percentage
+8. Comparison of two quantities
+9. Ratio and percentage
+10. Marks and examination
+11. Population
+12. Income and expenditure
+13. Savings
+14. Price and consumption
+15. Percentage-based word problems
+
+---
+
+# 28. Common Traps
+
+### Trap 1 — Wrong Denominator
+
+Percentage increase uses:
+
+```text
+Increase / Original × 100
+```
+
+not the final value.
+
+### Trap 2 — Adding Successive Percentages
+
+`20% increase + 10% increase` is **not** `30%`.
+
+It is:
+
+```text
+32%
+```
+
+### Trap 3 — Reversing "More Than"
+
+If A is `25%` more than B, B is `20%` less than A.
+
+### Trap 4 — Applying Both Changes to the Original
+
+For successive changes, the second percentage applies to the **new value**.
+
+### Trap 5 — Price-Consumption Questions
+
+Constant expenditure means:
+
+```text
+Price × Quantity = Constant
+```
+
+So percentage changes move in opposite directions.
+
+---
+
+# 29. Exam Strategy
+
+When you see a percentage question:
+
+### Step 1
+
+Identify the base/reference quantity.
+
+Ask:
+
+```text
+"Percentage of what?"
+```
+
+### Step 2
+
+Convert percentages to fractions when convenient.
+
+Example:
+
+```text
+25% = 1/4
+20% = 1/5
+12.5% = 1/8
+```
+
+### Step 3
+
+For successive changes, use multipliers.
+
+```text
+20% increase → ×1.20
+15% decrease → ×0.85
+```
+
+### Step 4
+
+For reverse percentage, divide by the multiplier.
+
+```text
+After 20% increase:
+Original = Final / 1.20
+```
+
+### Step 5
+
+Check whether the question asks for:
+
+* Percentage
+* Percentage increase/decrease
+* Percentage points
+* Final value
+* Original value
+
+---
+
+# 30. Quick Memory Map
+
+```text
+PERCENTAGES
+│
+├── Basics
+│   ├── Percentage of number
+│   ├── Percentage ↔ Fraction
+│   └── Part / Whole × 100
+│
+├── Change
+│   ├── Increase
+│   ├── Decrease
+│   └── Successive changes
+│
+├── Reverse
+│   ├── Original value
+│   └── More ↔ Less
+│
+├── Applications
+│   ├── Marks
+│   ├── Population
+│   ├── Income
+│   ├── Expenditure
+│   ├── Savings
+│   └── Price & Consumption
+│
+└── Traps
+    ├── Wrong denominator
+    ├── Adding successive %
+    ├── Reverse comparison
+    └── Percentage points
+```

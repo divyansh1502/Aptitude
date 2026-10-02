@@ -1,151 +1,353 @@
-﻿# Percentages — Formulas & Shortcuts
+﻿# Percentages — Formulas
 
-## Core Formulas
+## 1. Basic Formula
 
-| Situation | Formula / Shortcut |
-|---|---|
-| Percentage | `Part / Whole × 100` |
-| x% of N | `xN / 100` |
-| Percentage change | `(New − Original) / Original × 100` |
-| Increase by r% | `Original × (1 + r/100)` |
-| Decrease by r% | `Original × (1 − r/100)` |
-| Original after r% increase | `Final / (1 + r/100)` |
-| Original after r% decrease | `Final / (1 − r/100)` |
-| Successive changes a%, b% | `a + b + ab/100` |
-| Equal increase and decrease r% | `r²/100` net decrease |
-| A is r% more than B | `A = B(1+r/100)` |
-| A is r% less than B | `A = B(1−r/100)` |
-| Required consumption decrease after r% price increase | `r/(100+r) × 100` |
-| Required consumption increase after r% price decrease | `r/(100−r) × 100` |
+```text
+x% = x/100
+```
 
-## Percentage ↔ Fraction
+```text
+x% of y = (x/100) × y
+```
 
-| Percentage | Fraction |
-|---:|---:|
-| 1% | 1/100 |
-| 2% | 1/50 |
-| 4% | 1/25 |
-| 5% | 1/20 |
-| 10% | 1/10 |
-| 12.5% | 1/8 |
-| 16.67% | 1/6 |
-| 20% | 1/5 |
-| 25% | 1/4 |
-| 33.33% | 1/3 |
-| 50% | 1/2 |
-| 75% | 3/4 |
+```text
+Percentage = (Part/Whole) × 100
+```
 
-## Fast Mental Math
+---
 
-| Need | Shortcut |
-|---|---|
-| 10% | Divide by 10 |
-| 5% | 10% ÷ 2 |
-| 1% | Divide by 100 |
-| 20% | Divide by 5 |
-| 25% | Divide by 4 |
-| 50% | Divide by 2 |
-| 75% | 3/4 of number |
-| 12.5% | Divide by 8 |
-| 2.5% | Divide by 40 |
-| 33.33% | Divide by 3 approximately |
-| 66.67% | 2/3 approximately |
+## 2. Original Value
 
-## Ratio Conversion
+If `p%` of a number is `x`:
 
-If A is `r%` more than B:
+```text
+Original = x × 100/p
+```
 
-\[
-A:B=(100+r):100
-\]
+---
 
-If A is `r%` less than B:
+## 3. Percentage Increase
 
-\[
-A:B=(100-r):100
-\]
+```text
+Increase % = (Increase/Original) × 100
+```
 
-## Reverse Comparison
+```text
+Increase % = [(New-Original)/Original] × 100
+```
 
-If A is `r%` more than B, then B is less than A by:
+---
 
-\[
-\boxed{\frac{r}{100+r}\times100}
-\]
+## 4. Percentage Decrease
 
-If A is `r%` less than B, then B is more than A by:
+```text
+Decrease % = (Decrease/Original) × 100
+```
 
-\[
-\boxed{\frac{r}{100-r}\times100}
-\]
+```text
+Decrease % = [(Original-New)/Original] × 100
+```
 
-## Successive Multipliers
+---
 
-Increase by `a%`, then increase by `b%`:
+## 5. New Value
 
-\[
-(1+a/100)(1+b/100)
-\]
+### Increase by `p%`
+
+```text
+New = Original × (1 + p/100)
+```
+
+### Decrease by `p%`
+
+```text
+New = Original × (1 - p/100)
+```
+
+---
+
+## 6. Reverse Percentage
+
+After `p%` increase:
+
+```text
+Original = Final × 100/(100+p)
+```
+
+After `p%` decrease:
+
+```text
+Original = Final × 100/(100-p)
+```
+
+---
+
+## 7. Successive Changes
+
+### Two Increases
+
+Increase by `a%`, then `b%`:
+
+```text
+Net increase = a + b + ab/100
+```
+
+### Two Decreases
+
+Decrease by `a%`, then `b%`:
+
+```text
+Net decrease = a + b - ab/100
+```
+
+### Increase then Decrease
 
 Increase by `a%`, then decrease by `b%`:
 
-\[
-(1+a/100)(1-b/100)
-\]
+```text
+Net change = a - b - ab/100
+```
 
-Decrease by `a%`, then decrease by `b%`:
+Positive → net increase
+Negative → net decrease
 
-\[
-(1-a/100)(1-b/100)
-\]
+---
 
-## Marks
+## 8. Equal Increase and Decrease
 
-\[
-\text{Percentage}=\frac{\text{Marks obtained}}{\text{Total marks}}\times100
-\]
+Increase by `x%`, then decrease by `x%`:
 
-\[
-\text{Total marks}=\frac{\text{Marks obtained}\times100}{\text{Percentage}}
-\]
+```text
+Net decrease = x²/100 %
+```
 
-\[
-\text{Marks obtained}=\frac{\text{Percentage}\times\text{Total marks}}{100}
-\]
+Decrease by `x%`, then increase by `x%`:
 
-## Constant Expenditure
+```text
+Net decrease = x²/100 %
+```
 
-Price increases by `r%`:
+---
 
-\[
-\text{Consumption decrease}
-=
-\frac{r}{100+r}\times100
-\]
+## 9. More ↔ Less Conversion
 
-Price decreases by `r%`:
+If A is `x%` more than B:
 
-\[
-\text{Consumption increase}
-=
-\frac{r}{100-r}\times100
-\]
+```text
+B is [x/(100+x)] × 100 %
+less than A
+```
 
-## Quick Rule
+If A is `x%` less than B:
 
-When two quantities multiply to a constant:
+```text
+B is [x/(100-x)] × 100 %
+more than A
+```
 
-\[
-A\times B=\text{constant}
-\]
+---
 
-an increase in one requires a corresponding decrease in the other.
+## 10. Ratio to Percentage
 
-## When to Use What
+If:
 
-- **Direct "x% of N"** → fraction method.
-- **Repeated increase/decrease** → multipliers.
-- **Original value missing** → reverse percentage.
-- **"What % more/less?"** → change ÷ reference quantity.
-- **Price + expenditure** → inverse percentage.
-- **Percentage + ratio** → convert percentage into ratio.
+```text
+A : B = a : b
+```
+
+then:
+
+```text
+A as % of B = (a/b) × 100
+```
+
+```text
+B as % of A = (b/a) × 100
+```
+
+---
+
+## 11. Percentage Difference
+
+```text
+Percentage Difference
+= |A-B| / [(A+B)/2] × 100
+```
+
+---
+
+## 12. Marks
+
+```text
+Percentage = (Marks Obtained/Total Marks) × 100
+```
+
+```text
+Marks = (Percentage/100) × Total Marks
+```
+
+---
+
+## 13. Population
+
+After increase:
+
+```text
+P_new = P × (1+p/100)
+```
+
+After decrease:
+
+```text
+P_new = P × (1-p/100)
+```
+
+Successive changes:
+
+```text
+P_final = P × (1±a/100) × (1±b/100)
+```
+
+---
+
+## 14. Income, Expenditure, Savings
+
+```text
+Savings = Income - Expenditure
+```
+
+```text
+Savings % of Income
+= (Savings/Income) × 100
+```
+
+---
+
+## 15. Price and Consumption
+
+If expenditure is constant:
+
+```text
+Price × Consumption = Constant
+```
+
+If price increases by `p%`:
+
+```text
+Required decrease in consumption
+= p/(100+p) × 100%
+```
+
+If price decreases by `p%`:
+
+```text
+Required increase in consumption
+= p/(100-p) × 100%
+```
+
+---
+
+## 16. Percentage Points
+
+If a percentage changes from `A%` to `B%`:
+
+```text
+Percentage-point change = B-A
+```
+
+Percentage change:
+
+```text
+[(B-A)/A] × 100
+```
+
+---
+
+## 17. Must-Know Fraction Conversions
+
+| Percentage | Fraction |
+| ---------: | -------: |
+|         5% |   `1/20` |
+|        10% |   `1/10` |
+|      12.5% |    `1/8` |
+|       16⅔% |    `1/6` |
+|        20% |    `1/5` |
+|        25% |    `1/4` |
+|       33⅓% |    `1/3` |
+|      37.5% |    `3/8` |
+|        40% |    `2/5` |
+|        50% |    `1/2` |
+|        60% |    `3/5` |
+|      62.5% |    `5/8` |
+|       66⅔% |    `2/3` |
+|        75% |    `3/4` |
+|        80% |    `4/5` |
+|      87.5% |    `7/8` |
+
+---
+
+## 18. Mental Percentage Tricks
+
+```text
+10% = divide by 10
+```
+
+```text
+5% = divide by 20
+```
+
+```text
+1% = divide by 100
+```
+
+```text
+50% = half
+```
+
+```text
+25% = one-fourth
+```
+
+```text
+20% = one-fifth
+```
+
+```text
+12.5% = one-eighth
+```
+
+```text
+75% = three-fourths
+```
+
+### Useful
+
+```text
+15% = 10% + 5%
+```
+
+```text
+35% = 30% + 5%
+```
+
+```text
+2.5% = 1/40
+```
+
+---
+
+## 19. Quick Decision Table
+
+| Question                | Use                       |
+| ----------------------- | ------------------------- |
+| `x% of y`               | `x/100 × y`               |
+| A is what % of B?       | `A/B × 100`               |
+| Percentage increase     | `Increase/Original × 100` |
+| Percentage decrease     | `Decrease/Original × 100` |
+| Final after increase    | `Original × (1+p/100)`    |
+| Final after decrease    | `Original × (1-p/100)`    |
+| Original after increase | `Final × 100/(100+p)`     |
+| Original after decrease | `Final × 100/(100-p)`     |
+| Successive changes      | Multiply factors          |
+| Constant expenditure    | `P × Q = constant`        |
+| Marks percentage        | `Marks/Total × 100`       |

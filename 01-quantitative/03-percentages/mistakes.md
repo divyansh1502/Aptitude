@@ -4,257 +4,304 @@
 
 ### Mistake
 
-For "A is what percentage more than B?", using A as the denominator.
+For a change from `100` to `120`:
 
-### Why it happens
+```text
+20/120 × 100
+```
 
-Students focus on the difference but forget that percentage change is measured relative to the original/reference value.
+### Correct
 
-### Avoid It
+Percentage increase is calculated using the **original value**:
 
-For:
+```text
+20/100 × 100 = 20%
+```
 
-> A is what percentage more than B?
+### Remember
 
-Use:
-
-\[
-\frac{A-B}{B}\times100
-\]
-
----
-
-## 2. Adding Successive Percentages Directly
-
-### Mistake
-
-A value increases by 20% and decreases by 10%, so the student says the net increase is 10%.
-
-### Why it happens
-
-The second percentage is applied to the changed value, not the original value.
-
-### Avoid It
-
-Use multipliers:
-
-\[
-1.20\times0.90=1.08
-\]
-
-Net increase = 8%.
+```text
+Percentage change → divide by ORIGINAL
+```
 
 ---
 
-## 3. Treating Equal Increase and Decrease as Zero
+## 2. Adding Successive Percentages
 
 ### Mistake
 
-+20% followed by −20% = 0%.
+A value increases by `20%` and then by `10%`.
 
-### Why it happens
+Incorrect:
 
-The student assumes both percentages use the same base.
+```text
+20 + 10 = 30%
+```
 
-### Avoid It
+### Correct
 
-\[
-1.20\times0.80=0.96
-\]
+```text
+1.20 × 1.10 = 1.32
+```
 
-Therefore the net change is a 4% decrease.
+Net increase:
+
+```text
+32%
+```
+
+### Remember
+
+Successive changes → **multiply the factors**.
 
 ---
 
-## 4. Using the Final Value for Reverse Percentage
+## 3. Assuming Increase and Decrease Cancel
 
 ### Mistake
 
-A value becomes 600 after a 20% increase, and the student calculates:
+Increase by `20%`, then decrease by `20%`:
 
-\[
-600-20\%\text{ of }600
-\]
+```text
+20% - 20% = 0%
+```
 
-### Why it happens
+### Correct
 
-The student forgets that 600 represents 120% of the original.
+```text
+1.20 × 0.80 = 0.96
+```
 
-### Avoid It
-
-\[
-\text{Original}=\frac{600}{1.2}=500
-\]
-
----
-
-## 5. Confusing Percentage Points with Percentage Increase
-
-### Mistake
-
-A rate changes from 50% to 60%, so the student says the percentage increase is 10%.
-
-### Why it happens
-
-There is a difference between an absolute percentage-point change and a relative percentage change.
-
-### Avoid It
-
-Percentage-point change:
-
-\[
-60\%-50\%=10\text{ percentage points}
-\]
-
-Relative increase:
-
-\[
-\frac{10}{50}\times100=20\%
-\]
-
----
-
-## 6. Reversing "More Than" Incorrectly
-
-### Mistake
-
-If A is 25% more than B, saying B is 25% less than A.
-
-### Why it happens
-
-The reference value changes.
-
-### Avoid It
-
-If:
-
-\[
-A=125\%B
-\]
-
-then:
-
-\[
-B=\frac{100}{125}A=80\%A
-\]
-
-Therefore B is 20% less than A.
-
----
-
-## 7. Forgetting the Sign in Successive Changes
-
-### Mistake
-
-Using +15 and +10 when the second change is actually a decrease.
-
-### Why it happens
-
-Students remember the numbers but ignore whether each change is an increase or decrease.
-
-### Avoid It
-
-Use:
-
-- Increase → `+`
-- Decrease → `−`
-
-Example:
-
-\[
-15+(-10)+\frac{15(-10)}{100}
-\]
-
----
-
-## 8. Doing Long Decimal Calculations
-
-### Mistake
-
-Calculating 12.5% using a calculator-style decimal approach.
-
-### Why it happens
-
-The fraction relationship is not recognized.
-
-### Avoid It
-
-\[
-12.5\%=\frac18
-\]
+Final value is `96%` of original.
 
 Therefore:
 
-\[
-12.5\%\text{ of }800=100
-\]
+```text
+Net decrease = 4%
+```
 
 ---
 
-## 9. Applying Price and Consumption Percentages in the Same Direction
+## 4. Confusing "More Than" and "Less Than"
 
 ### Mistake
 
-Price increases by 20%, so consumption should also increase by 20% to keep expenditure constant.
+A is `25%` more than B, so B is `25%` less than A.
 
-### Why it happens
+### Correct
 
-The inverse relationship is ignored.
+Take:
 
-### Avoid It
+```text
+B = 100
+A = 125
+```
 
-For constant expenditure:
+Decrease from A to B:
 
-\[
-\text{Price}\times\text{Consumption}=\text{constant}
-\]
+```text
+25/125 × 100 = 20%
+```
 
-Price ↑ → Consumption ↓.
+Therefore:
 
-For a 20% price increase:
-
-\[
-\text{Consumption decrease}
-=
-\frac{20}{120}\times100
-=16.67\%
-\]
+```text
+A is 25% more than B
+B is 20% less than A
+```
 
 ---
 
-## 10. Not Identifying the Original Quantity
+## 5. Applying Reverse Percentage Directly
 
 ### Mistake
 
-Using the current/final value as the base when calculating percentage change.
+A number becomes `480` after a `20%` increase.
 
-### Why it happens
+Writing:
 
-The words "increase/decrease" are read too quickly.
+```text
+480 - 20% = 384
+```
 
-### Avoid It
+### Correct
 
-For normal percentage change:
+After a `20%` increase:
 
-\[
-\boxed{\frac{\text{Change}}{\text{Original}}\times100}
-\]
+```text
+Final = 120% of Original
+```
 
-Always identify the original/reference quantity before calculating.
+Therefore:
+
+```text
+Original = 480/1.20
+         = 400
+```
 
 ---
 
-# Personal Mistake Log
+## 6. Forgetting the Base in Ratio Questions
+
+### Mistake
+
+If boys : girls = `3 : 2`, saying boys are `60%` of girls.
+
+### Correct
+
+Boys as percentage of girls:
+
+```text
+3/2 × 100 = 150%
+```
+
+The denominator must match the quantity being compared **against**.
+
+---
+
+## 7. Confusing Percentage Points with Percentage Change
+
+### Mistake
+
+A rate changes from `20%` to `25%`.
+
+Saying:
+
+```text
+Increase = 5%
+```
+
+### Correct
+
+There is:
+
+```text
+5 percentage-point increase
+```
+
+But percentage increase is:
+
+```text
+5/20 × 100 = 25%
+```
+
+---
+
+## 8. Forgetting That the Second Change Uses the New Value
+
+### Mistake
+
+Population:
+
+```text
+100 → +20% → 120
+```
+
+Then decrease by `10%`:
+
+Incorrectly calculating `10% of 100`.
+
+### Correct
+
+The second change is:
+
+```text
+10% of 120 = 12
+```
+
+Final:
+
+```text
+120 - 12 = 108
+```
+
+---
+
+## 9. Using the Wrong Formula for Price and Consumption
+
+### Mistake
+
+Price increases by `25%`, so consumption decreases by `25%`.
+
+### Correct
+
+If expenditure is constant:
+
+```text
+Price × Consumption = Constant
+```
+
+Required decrease:
+
+```text
+25/125 × 100
+= 20%
+```
+
+---
+
+## 10. Forgetting to Calculate Original Savings
+
+### Mistake
+
+Income and expenditure both change, and the question asks for the percentage change in savings.
+
+Comparing new savings directly without calculating old savings.
+
+### Correct
+
+Always calculate:
+
+```text
+Old Savings = Old Income - Old Expenditure
+```
+
+and:
+
+```text
+New Savings = New Income - New Expenditure
+```
+
+Then:
+
+```text
+Percentage change
+= (Change/Old Savings) × 100
+```
+
+---
+
+# Mistake Log
 
 | Question | Tag (C/S/T/R/G) | Fix |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| -------- | --------------- | --- |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+|          |                 |     |
+
+### Tags
+
+| Tag | Meaning                 |
+| --- | ----------------------- |
+| C   | Concept mistake         |
+| S   | Silly mistake           |
+| T   | Time-management mistake |
+| R   | Reading mistake         |
+| G   | Guess                   |
+
+### Revision Rule
+
+If you repeatedly make percentage mistakes, check these three things first:
+
+```text
+1. What is the BASE?
+2. Is this a SUCCESSIVE change?
+3. Am I finding the ORIGINAL or FINAL value?
+```

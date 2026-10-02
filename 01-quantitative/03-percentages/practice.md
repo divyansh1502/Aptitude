@@ -1,404 +1,435 @@
 ﻿# Percentages — Practice
 
-## Part A — 5 Representative Questions
+## Part A — Representative Questions
 
-### Q1. Direct Percentage
+### Q1. Basic Percentage
 
-A student scored 84 marks out of 120. What percentage did the student score?
+Find `35%` of `480`.
 
-### Solution
+**Solution**
 
-\[
-\frac{84}{120}\times100
-\]
+```text
+35% of 480
+= 35/100 × 480
+= 168
+```
 
-\[
-=\frac{7}{10}\times100
-\]
-
-\[
-=70\%
-\]
-
-**Answer: 70%**
+**Answer: `168`**
 
 ---
 
-### Q2. Successive Percentage Change
+### Q2. Percentage Comparison
 
-The price of a product increases by 25% and then decreases by 20%. What is the net percentage change?
+`45` is what percentage of `180`?
 
-### Solution
+**Solution**
 
-Use:
+```text
+Percentage
+= 45/180 × 100
+= 25%
+```
 
-\[
-a+b+\frac{ab}{100}
-\]
-
-Increase = `+25%`  
-Decrease = `−20%`
-
-\[
-25-20+\frac{25(-20)}{100}
-\]
-
-\[
-=5-5=0\%
-\]
-
-**Answer: No net change**
+**Answer: `25%`**
 
 ---
 
-### Q3. Reverse Percentage
+### Q3. Percentage Increase
 
-After a 20% discount, a bag is sold for ₹960. Find its original price.
+The price of a product increases from `₹800` to `₹920`. Find the percentage increase.
 
-### Solution
+**Solution**
 
-After a 20% discount, the selling price is 80% of the original price.
+Increase:
 
-\[
-80\%\text{ of Original}=960
-\]
+```text
+920 - 800 = 120
+```
 
-\[
-\text{Original}=\frac{960\times100}{80}
-\]
+Percentage increase:
 
-\[
-=1200
-\]
+```text
+120/800 × 100
+= 15%
+```
 
-**Answer: ₹1,200**
-
----
-
-### Q4. Percentage Comparison
-
-A's salary is 25% more than B's salary. If A earns ₹50,000, find B's salary.
-
-### Solution
-
-A is 125% of B.
-
-\[
-125\%\text{ of B}=50000
-\]
-
-\[
-B=\frac{50000\times100}{125}
-\]
-
-\[
-=40000
-\]
-
-**Answer: ₹40,000**
+**Answer: `15%`**
 
 ---
 
-### Q5. Price and Consumption
+### Q4. Successive Changes
 
-The price of petrol increases by 25%. By what percentage should consumption be reduced so that total expenditure remains unchanged?
+A number is increased by `20%` and then decreased by `10%`. Find the net percentage change.
 
-### Solution
+**Solution**
 
-Use:
+Use multipliers:
 
-\[
-\text{Reduction}
-=
-\frac{r}{100+r}\times100
-\]
+```text
+20% increase → ×1.20
 
-\[
-=\frac{25}{125}\times100
-\]
+10% decrease → ×0.90
+```
 
-\[
-=20\%
-\]
+Therefore:
 
-**Answer: 20% reduction**
+```text
+1.20 × 0.90 = 1.08
+```
 
----
+Final value is `108%` of the original.
 
-# Part B — Timed Set
+Therefore:
 
-**Recommended time: 20 minutes**
+```text
+Net increase = 8%
+```
 
-Try all questions before checking the answer key.
+**Answer: `8% increase`**
 
 ---
 
-### Q1
+### Q5. Reverse Percentage
 
-Find 18% of 450.
+A salary is increased by `25%` and becomes `₹50,000`. Find the original salary.
 
-A. 72  
-B. 81  
-C. 90  
-D. 99
+**Solution**
 
----
+After a `25%` increase:
 
-### Q2
+```text
+Final = 125% of Original
+```
 
-A number is 25% of 240. Find the number.
+Therefore:
 
-A. 50  
-B. 60  
-C. 70  
-D. 80
+```text
+Original
+= 50,000 × 100/125
+= 40,000
+```
 
----
-
-### Q3
-
-A student scores 72 out of 90. What is the percentage?
-
-A. 75%  
-B. 80%  
-C. 85%  
-D. 90%
+**Answer: `₹40,000`**
 
 ---
 
-### Q4
+# Part B — Timed Practice Set
 
-The price of a book increases from ₹400 to ₹460. Find the percentage increase.
+**Target time: 25 minutes**
 
-A. 10%  
-B. 12%  
-C. 15%  
+### Q1.
+
+What is `15%` of `240`?
+
+A. 24
+B. 30
+C. 36
+D. 40
+
+---
+
+### Q2.
+
+`72` is what percentage of `240`?
+
+A. 20%
+B. 25%
+C. 30%
+D. 35%
+
+---
+
+### Q3.
+
+A number increases from `400` to `460`. The percentage increase is:
+
+A. 10%
+B. 12%
+C. 15%
 D. 20%
 
 ---
 
-### Q5
+### Q4.
 
-A number is increased by 20%. If the original number is 750, find the new number.
+A number decreases from `500` to `425`. The percentage decrease is:
 
-A. 850  
-B. 875  
-C. 900  
-D. 920
-
----
-
-### Q6
-
-A number is decreased by 15% from 800. Find the resulting number.
-
-A. 660  
-B. 680  
-C. 700  
-D. 720
+A. 10%
+B. 12%
+C. 15%
+D. 20%
 
 ---
 
-### Q7
+### Q5.
 
-A salary increases by 10% and then by 20%. What is the net percentage increase?
+A number is increased by `10%` and then by `20%`. The net increase is:
 
-A. 28%  
-B. 30%  
-C. 32%  
+A. 28%
+B. 30%
+C. 32%
 D. 35%
 
 ---
 
-### Q8
+### Q6.
 
-A price increases by 20% and then decreases by 20%. What is the net change?
+A number is decreased by `20%` and then by `10%`. The net decrease is:
 
-A. 0%  
-B. 2% decrease  
-C. 4% decrease  
-D. 4% increase
-
----
-
-### Q9
-
-After a 25% increase, a number becomes 500. Find the original number.
-
-A. 375  
-B. 400  
-C. 425  
-D. 450
+A. 28%
+B. 30%
+C. 32%
+D. 35%
 
 ---
 
-### Q10
+### Q7.
 
-After a 20% decrease, a number becomes 640. Find the original number.
+A value is increased by `25%` and then decreased by `20%`. The final value compared with the original is:
 
-A. 720  
-B. 760  
-C. 800  
-D. 840
-
----
-
-### Q11
-
-A is 30% more than B. If B = 400, find A.
-
-A. 500  
-B. 510  
-C. 520  
-D. 530
+A. 5% increase
+B. Same
+C. 5% decrease
+D. 10% decrease
 
 ---
 
-### Q12
+### Q8.
 
-A is 20% less than B. If B = 750, find A.
+A number is increased by `20%` and becomes `360`. The original number is:
 
-A. 550  
-B. 575  
-C. 600  
-D. 625
+A. 280
+B. 300
+C. 320
+D. 340
 
 ---
 
-### Q13
+### Q9.
 
-A is 25% more than B. B is what percentage less than A?
+A is `25%` more than B. B is what percentage less than A?
 
-A. 15%  
-B. 20%  
-C. 25%  
+A. 15%
+B. 20%
+C. 25%
 D. 30%
 
 ---
 
-### Q14
+### Q10.
 
-A student's marks increase from 60 to 75. Find the percentage increase.
+A is `20%` less than B. B is what percentage more than A?
 
-A. 20%  
-B. 25%  
-C. 30%  
-D. 35%
-
----
-
-### Q15
-
-A person's income is ₹50,000 and expenditure is ₹40,000. What percentage of income is saved?
-
-A. 10%  
-B. 15%  
-C. 20%  
-D. 25%
+A. 20%
+B. 22.5%
+C. 25%
+D. 30%
 
 ---
 
-### Q16
+### Q11.
 
-The population of a town is 20,000. It increases by 10% and then by 5%. Find the final population.
+A student scores `360` out of `500`. His percentage is:
 
-A. 22,000  
-B. 22,500  
-C. 23,000  
-D. 23,100
-
----
-
-### Q17
-
-The price of rice increases by 20%. By what percentage should consumption decrease to keep expenditure constant?
-
-A. 15%  
-B. 16.67%  
-C. 20%  
-D. 25%
+A. 68%
+B. 70%
+C. 72%
+D. 75%
 
 ---
 
-### Q18
+### Q12.
 
-A candidate obtains 360 marks and scores 72%. What are the maximum marks?
+A student must score `75%` in an exam of `800` marks. How many marks are required?
 
-A. 450  
-B. 480  
-C. 500  
-D. 520
-
----
-
-### Q19
-
-A number is increased by 30% and then decreased by 10%. What is the net percentage change?
-
-A. 15% increase  
-B. 17% increase  
-C. 20% increase  
-D. 23% increase
+A. 560
+B. 580
+C. 600
+D. 620
 
 ---
 
-### Q20
+### Q13.
 
-A product is discounted by 20% and then by another 10%. What is the total percentage discount?
+The population of a city is `80,000`. It increases by `15%`. New population is:
 
-A. 28%  
-B. 30%  
-C. 32%  
+A. 90,000
+B. 91,000
+C. 92,000
+D. 94,000
+
+---
+
+### Q14.
+
+A person's income is `₹40,000` and expenditure is `₹32,000`. Savings are what percentage of income?
+
+A. 15%
+B. 20%
+C. 25%
+D. 30%
+
+---
+
+### Q15.
+
+The price of a product increases by `25%`. By what percentage should consumption decrease so that expenditure remains constant?
+
+A. 15%
+B. 20%
+C. 25%
+D. 30%
+
+---
+
+### Q16.
+
+The price of a product decreases by `20%`. By what percentage can consumption increase while expenditure remains constant?
+
+A. 20%
+B. 25%
+C. 30%
+D. 40%
+
+---
+
+### Q17.
+
+A salary increases by `20%` and then by `10%`. The total percentage increase is:
+
+A. 28%
+B. 30%
+C. 32%
+D. 34%
+
+---
+
+### Q18.
+
+A number is first decreased by `25%` and then increased by `25%`. The net change is:
+
+A. No change
+B. 5% increase
+C. 6.25% decrease
+D. 6.25% increase
+
+---
+
+### Q19.
+
+A number is `40%` of another number. The second number is what percentage more than the first?
+
+A. 100%
+B. 120%
+C. 150%
+D. 160%
+
+---
+
+### Q20.
+
+A person's income increases by `10%`, while expenditure increases by `5%`. Initially, income is `₹50,000` and expenditure is `₹40,000`. What is the percentage increase in savings?
+
+A. 20%
+B. 25%
+C. 30%
 D. 35%
 
 ---
 
 # Answer Key
 
-| Q | Answer |
-|---:|---|
-| 1 | B — 81 |
-| 2 | B — 60 |
-| 3 | B — 80% |
-| 4 | C — 15% |
-| 5 | C — 900 |
-| 6 | B — 680 |
-| 7 | C — 32% |
-| 8 | C — 4% decrease |
-| 9 | B — 400 |
-| 10 | C — 800 |
-| 11 | C — 520 |
-| 12 | C — 600 |
-| 13 | B — 20% |
-| 14 | B — 25% |
-| 15 | C — 20% |
-| 16 | B — 23,100 |
-| 17 | B — 16.67% |
-| 18 | C — 500 |
-| 19 | B — 17% increase |
-| 20 | A — 28% |
+|  Q | Answer |
+| -: | :----: |
+|  1 |    C   |
+|  2 |    C   |
+|  3 |    C   |
+|  4 |    C   |
+|  5 |    C   |
+|  6 |    A   |
+|  7 |    B   |
+|  8 |    B   |
+|  9 |    B   |
+| 10 |    C   |
+| 11 |    C   |
+| 12 |    C   |
+| 13 |    C   |
+| 14 |    B   |
+| 15 |    B   |
+| 16 |    B   |
+| 17 |    C   |
+| 18 |    C   |
+| 19 |    C   |
+| 20 |    C   |
 
 ---
 
-# Quick Check
+# Selected Checks
 
-- **18% of 450 = 81**
-- **25% of 240 = 60**
-- **72/90 = 80%**
-- **60/400 = 15%**
-- **750 × 1.2 = 900**
-- **800 × 0.85 = 680**
-- **1.1 × 1.2 = 1.32**
-- **1.2 × 0.8 = 0.96**
-- **500/1.25 = 400**
-- **640/0.8 = 800**
-- **400 × 1.3 = 520**
-- **750 × 0.8 = 600**
-- If A = 125% of B, B = 80% of A
-- **15/60 = 25%**
-- **10,000/50,000 = 20%**
-- **20,000 × 1.1 × 1.05 = 23,100**
-- **20/120 = 16.67%**
-- **360/0.72 = 500**
-- **1.3 × 0.9 = 1.17**
-- **1 − (0.8 × 0.9) = 28%**
+### Q5
+
+```text
+1.10 × 1.20 = 1.32
+```
+
+Net increase = `32%`.
+
+### Q6
+
+```text
+0.80 × 0.90 = 0.72
+```
+
+Net decrease = `28%`.
+
+### Q7
+
+```text
+1.25 × 0.80 = 1
+```
+
+No change.
+
+### Q18
+
+```text
+0.75 × 1.25 = 0.9375
+```
+
+Net decrease:
+
+```text
+1 - 0.9375 = 0.0625 = 6.25%
+```
+
+### Q20
+
+Original savings:
+
+```text
+50,000 - 40,000 = 10,000
+```
+
+New income:
+
+```text
+50,000 × 1.10 = 55,000
+```
+
+New expenditure:
+
+```text
+40,000 × 1.05 = 42,000
+```
+
+New savings:
+
+```text
+55,000 - 42,000 = 13,000
+```
+
+Increase:
+
+```text
+3,000/10,000 × 100 = 30%
+```
